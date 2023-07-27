@@ -41,3 +41,4 @@ Click finish and your VM will be created:
 
 ![Create new VM step 1](resources/VB_new_machine04.png)
 
+Now you can [install Ubuntu 22.04 operating system](ubuntu_install.md).
