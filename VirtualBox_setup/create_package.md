@@ -11,6 +11,8 @@ Start by creating a new workspace:
 	colcon build
 	
 	ls -lh
+
+ 	source install/setup.bash
 	
 The build should be successful and you should see folders `build`, `install`, `log` and `src`.
 
