@@ -52,9 +52,8 @@ You should now see the following:
 
 The talker is publishing `Hello world` messages and the listener is receiving them.
 
-Rather than running the line `source /opt/ros/humble/setup.bash` every time you open a new terminal, you can add it to your .bashrc file.
-Open the file in your favourite editor (e.g. Vim or gedit):
+Rather than running the line `source /opt/ros/humble/setup.bash` every time you open a new terminal, you can add it to your .bashrc file:
 
-    gedit ~/.bashrc
+    echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 
 and add that line at the end of the file. Now it will be automatically sourced every time you open a new terminal.
