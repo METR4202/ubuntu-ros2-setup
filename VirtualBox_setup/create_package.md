@@ -80,21 +80,21 @@ Now create a new file `m4202_first_node.py` in the `src/m4202_py_pkg/m4202_py_pk
 
     class M4202Node(Node):
         def __init__(self) -> None:
-        super().__init__("m4202_test")
-        self.get_logger().info("Hello METR4202")
+            super().__init__("m4202_test")
+            self.get_logger().info("Hello METR4202")
 
-    def main(args=None):
-        rclpy.init(args=args)
-
-        node = M4202Node()
-
-        rclpy.spin(node)
-
-        rclpy.shutdown()
-
-
-    if __name__ == "__main__":
-        main()
+        def main(args=None):
+            rclpy.init(args=args)
+    
+            node = M4202Node()
+    
+            rclpy.spin(node)
+    
+            rclpy.shutdown()
+    
+    
+        if __name__ == "__main__":
+            main()
         
     
 It should look like this:
