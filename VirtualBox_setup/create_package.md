@@ -83,19 +83,19 @@ Now create a new file `m4202_first_node.py` in the `src/m4202_py_pkg/m4202_py_pk
             super().__init__("m4202_test")
             self.get_logger().info("Hello METR4202")
 
-        def main(args=None):
-            rclpy.init(args=args)
+    def main(args=None):
+        rclpy.init(args=args)
+
+        node = M4202Node()
+
+        rclpy.spin(node)
+
+        rclpy.shutdown()
+
+
+    if __name__ == "__main__":
+        main()
     
-            node = M4202Node()
-    
-            rclpy.spin(node)
-    
-            rclpy.shutdown()
-    
-    
-        if __name__ == "__main__":
-            main()
-        
     
 It should look like this:
 
@@ -104,9 +104,9 @@ It should look like this:
 Now you can build and install the node. To do that update the `setup.py`, section `entry_points`. Update it to the following:
 
         entry_points={
-        'console_scripts': [
-            "m4202_node = m4202_py_pkg.m4202_first_node:main"
-        ],
+            'console_scripts': [
+                "m4202_node = m4202_py_pkg.m4202_first_node:main"
+            ],
         },
         
 ### Running and Building the Node
