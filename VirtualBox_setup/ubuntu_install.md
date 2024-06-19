@@ -105,5 +105,3 @@ Now restart the system with the following command:
 After the restart, you should be able to resize the screen by resizing the VirtualBox window:
 
 ![Install Ubuntu step 21](resources/VB_install21.png)
-
-Now you are ready to [install the ROS2](install_ros2.md).

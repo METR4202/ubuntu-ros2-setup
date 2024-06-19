@@ -12,6 +12,6 @@ And this should be the result:
 
 ![Start TurtleSim](resources/turtlesim01.png)
 
-In the second terminal window run:
+In a second terminal window run:
 
 	ros2 run turtlesim turtle_teleop_key

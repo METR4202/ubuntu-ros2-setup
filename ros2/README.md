@@ -6,9 +6,9 @@ We'll continue to enrich this page with further details as the course progresses
 
 To verify that your ROS installation was successful, please complete the following exercises:
 
-1. [Create a ROS2 Python Package](../VirtualBox_setup/create_package.md)
-2. [Start the TurtleSim](../VirtualBox_setup/start_turtlesim.md)
-3. [Start the Gazebo Simulation](../VirtualBox_setup/start_gazebo.md)
+1. [Create a ROS2 Python Package](create_package.md)
+2. [Start the TurtleSim](start_turtlesim.md)
+3. [Start a robot in the Gazebo Simulation](start_gazebo.md)
 
 Please make sure you are able to complete all three.
 
