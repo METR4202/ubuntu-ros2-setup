@@ -23,7 +23,7 @@ A ROS launch file can be created to run multiple nodes and can also set paramete
 
     ros2 launch <package_name> <launch_file_name>
 
-Launch files will have either a `.launch` extension or are by convention named with a `_launch.py` suffix if written as a python script.
+Launch files will have either a `.launch` extension or are by convention named with a `.launch.py` suffix if written as a python script.
 
 ### ros2 topic
 
