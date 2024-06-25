@@ -36,6 +36,6 @@ The first time you launch Gazebo it can take a while to start because it needs t
 
 In general, Gazebo can be a bit temperamental. If it doesn't load the first time, try the following:
 
-* Hit `CRTL+C`, wait for the process to exit and run again
+* Hit `CTRL+C`, wait for the process to exit and run again
 * Kill all Gazebo processes `killall -s SIGKILL gzclient gzserver` and run again
 * If neither of the above work, try sourcing `source /usr/share/gazebo/setup.sh`. If this solves the problem, include the call in your .bashrc file.
