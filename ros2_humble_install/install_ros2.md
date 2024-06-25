@@ -39,7 +39,7 @@ Add the GPG key and ROS2 source:
 
 ## Test the installation
 
-You will need 2 terminal windows (press `Ctr+Shift+N` to open a second window or `Ctrl+Shift+T` to open a new tab).
+You will need 2 terminal windows (press `CTRL+SHIFT+N` to open a second window or `CTRL+SHIFT+T` to open a new tab).
 
 In the first terminal type:
 
