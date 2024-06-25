@@ -55,7 +55,7 @@ To fix this, you will need to downgrade the `setuptools` package:
     
     pip3 install setuptools==58.2.0
     
-Running the build again now be successful:
+Running the build again now should be successful:
 
     colcon build
     
@@ -104,7 +104,7 @@ It should look like this:
 
 ![First node](resources/create_package_04.png)
 
-Now you can build and install the node. To do that update the `setup.py`, section `entry_points` to the following:
+Now you can build and install the node. To do that update `setup.py`, section `entry_points` to the following:
 
         entry_points={
             'console_scripts': [
