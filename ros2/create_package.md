@@ -117,7 +117,7 @@ Now you can build and install the node. To do that update `setup.py`, section `e
 Now go back to `metr4202_ws` in the terminal and use `colcon build` to build the package:
 
     cd ~/metr4202_ws
-    colcon build --packages-select m4202_py_pkg
+    colcon build --symlink-install --packages-select m4202_py_pkg
     
 After a successful build, you should be able to see the installed node in the install folder:
 
