@@ -4,7 +4,7 @@
 
 Start by creating a new workspace:
 
-    cd ~/
+    cd
     mkdir -p metr4202_ws/src
     cd metr4202_ws
     
