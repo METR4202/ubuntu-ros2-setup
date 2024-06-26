@@ -5,8 +5,8 @@
 Start by creating a new workspace:
 
     cd ~/
-    mkdir -p ros2_ws/src
-    cd ros2_ws
+    mkdir -p metr4202_ws/src
+    cd metr4202_ws
     
     colcon build
     
@@ -25,22 +25,22 @@ You will need to source `setup.bash`:
 
 As before, you should add this to your `.bashrc` file to be sourced every time you open a new terminal. To do that, open the `~/.bashrc` file in your favourite editor and add the following line at the end of the file.
 
-    source ~/ros2_ws/install/setup.bash
+    source ~/metr4202_ws/install/setup.bash
 
 Alternatively, you can also run the following command to add the line to the file:
 
-    echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bashrc
+    echo 'source ~/metr4202_ws/install/setup.bash' >> ~/.bashrc
 
 ## Create a New Python Package
 
-    cd ~/ros2_ws/src
+    cd ~/metr4202_ws/src
     ros2 pkg create m4202_py_pkg --build-type ament_python --dependencies rclpy
 
     ls
 
 You should see `m4202_py_pkg` folder.
 
-To build the package, you need to move up to the `ros2_ws` folder and run `colcon build`:
+To build the package, you need to move up to the `metr4202_ws` folder and run `colcon build`:
 
     cd ../
     colcon build
@@ -67,7 +67,7 @@ To build only a single package run:
 
 ## Create a New Node
 
-Open the `ros2_ws/src` folder in VS Code:
+Open the `metr4202_ws/src` folder in VS Code:
 
 ![VSCode](resources/create_package_03.png)
 
@@ -114,9 +114,9 @@ Now you can build and install the node. To do that update `setup.py`, section `e
         
 ## Running and Building the Node
 
-Now go back to `ros2_ws` in the terminal and use `colcon build` to build the package:
+Now go back to `metr4202_ws` in the terminal and use `colcon build` to build the package:
 
-    cd ~/ros2_ws
+    cd ~/metr4202_ws
     colcon build --packages-select m4202_py_pkg
     
 After a successful build, you should be able to see the installed node in the install folder:
