@@ -39,3 +39,7 @@ In general, Gazebo can be a bit temperamental. If it doesn't load the first time
 * Hit `CTRL+C`, wait for the process to exit and run again
 * Kill all Gazebo processes `killall -s SIGKILL gzclient gzserver` and run again
 * If neither of the above work, try sourcing `source /usr/share/gazebo/setup.sh`. If this solves the problem, include the call in your .bashrc file.
+
+## Next
+
+Return to the [README](README.md) to continue your METR4202 setup journey.
