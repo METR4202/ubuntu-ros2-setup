@@ -34,4 +34,5 @@ Please make sure to update regularly:
 * **apt** is a package manager 
 
 ### Next
-* Return to the [README](README.md) to continue your METR4202 setup journey
+
+Return to the [README](README.md) to continue your METR4202 setup journey.
