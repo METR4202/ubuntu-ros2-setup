@@ -64,3 +64,7 @@ Rather than running the line `source /opt/ros/humble/setup.bash` every time you 
     echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 
 This will add that line at the end of the .bashrc file. Now it will be automatically sourced every time you open a new terminal.
+
+## Next
+
+Return to the [README](README.md) to continue your METR4202 setup journey.
