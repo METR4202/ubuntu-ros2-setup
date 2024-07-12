@@ -33,6 +33,6 @@ Please make sure to update regularly:
 * **sudo** gives root (admin) privileges to a command
 * **apt** is a package manager 
 
-### Next
+## Next
 
 Return to the [README](README.md) to continue your METR4202 setup journey.
