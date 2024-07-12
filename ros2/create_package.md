@@ -132,3 +132,7 @@ Now you can run your new node. Before running re-source `~/.bashrc`:
     ros2 run m4202_py_pkg m4202_node
 
 ![First node](resources/create_package_05.png)
+
+## Next
+
+Return to the [README](README.md) for more exercises.
