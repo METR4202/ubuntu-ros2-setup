@@ -105,3 +105,7 @@ Now restart the system with the following command:
 After the restart, you should be able to resize the screen by resizing the VirtualBox window:
 
 ![Install Ubuntu step 21](resources/VB_install21.png)
+
+## Next
+
+Return to the [README](README.md) to continue your METR4202 setup journey.
