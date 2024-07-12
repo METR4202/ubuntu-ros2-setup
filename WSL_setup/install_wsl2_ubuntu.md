@@ -10,9 +10,9 @@ First install Windows Terminal from the Microsoft Store:
 ![](resources/terminal.png)
 
 Install WSL2 using powershell:
-```
-wsl --install
-```
+
+    wsl --install
+
 Navigate back to the Microsoft Store and install Ubuntu 22.04 LTS
 
 ![](resources/ubuntu.png)
@@ -24,12 +24,14 @@ The dropdown menu in Windows Terminal should now have Ubuntu as an option (you m
 Click this and WSL will begin the installation process. Following this Ubuntu 22.04 will be set up.
 
 Please make sure to update regularly:
-```
-sudo apt update
-sudo apt upgrade
-```
+
+    sudo apt update
+    sudo apt upgrade
 
 ### FYI
 * Get used to using the command line/terminal, this is where you will be debugging. 
 * **sudo** gives root (admin) privileges to a command
 * **apt** is a package manager 
+
+### Next
+* Return to the [README](README.md) to continue your METR4202 setup journey
