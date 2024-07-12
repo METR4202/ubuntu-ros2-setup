@@ -19,3 +19,7 @@ In a new terminal run the following command to publish a single forward velocity
 You should see the robot moving:
 
 ![Gazebo Moving](resources/gazebo02.gif)
+
+## Next
+
+Return to the [README](README.md) for more exercises.
