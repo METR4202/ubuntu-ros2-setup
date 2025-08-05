@@ -11,7 +11,7 @@ First install Windows Terminal from the Microsoft Store:
 
 Install WSL2 using powershell:
 
-    wsl --install
+    wsl --install -d Ubuntu-22.04
 
 Navigate back to the Microsoft Store and install Ubuntu 22.04 LTS
 
@@ -36,3 +36,4 @@ Please make sure to update regularly:
 ## Next
 
 Return to the [README](README.md) to continue your METR4202 setup journey.
+
