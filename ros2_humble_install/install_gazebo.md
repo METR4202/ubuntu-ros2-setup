@@ -20,6 +20,13 @@ Or alternatively, add it to your .bashrc file so that it is automatically called
 echo 'export GAZEBO_MODEL_PATH=~/.gazebo/models:$GAZEBO_MODEL_PATH' >> ~/.bashrc
 ```
 
+Source the Gazebo environment using:
+
+```
+echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
+source ~/.bashrc
+```
+
 You can now launch Gazebo from the command line. The `verbose` flag is optional and will print out additional information to the command line, which can be useful for debugging.
 
 ```
@@ -38,7 +45,6 @@ In general, Gazebo can be a bit temperamental. If it doesn't load the first time
 
 * Hit `CTRL+C`, wait for the process to exit and run again
 * Kill all Gazebo processes `killall -s SIGKILL gzclient gzserver` and run again
-* If neither of the above work, try sourcing `source /usr/share/gazebo/setup.sh`. If this solves the problem, include the call in your .bashrc file.
 
 ## Next
 
